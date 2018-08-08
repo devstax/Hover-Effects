@@ -1,0 +1,84 @@
+body{
+    /*background-color: #ff7d58;*/
+    background-image: url("Desktop-White-Background-Wallpaper-.png");
+    background-repeat: no-repeat;
+}
+div.primary {
+    width: 80%;
+    height: 80%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -40%;
+    display: flex;
+}
+
+div.first{
+    color: white;
+    transition: 1s;
+    padding: 20px;
+    text-align: center;
+    width: 33%;
+    height: 33%;
+    background-color: black;
+    margin-right: 10px;
+    font-family: 'Montserrat', sans-serif;
+    /*border: 1px solid;
+    box-shadow: 5px 10px #888888;*/
+    
+}
+
+div.second{
+    transition: 1s;
+    padding: 20px;
+    text-align: center;
+    width: 33%;
+    height: 33%;
+    color: white;
+    background-color: black;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: 'Montserrat', sans-serif;
+    /*border: 1px solid;
+    box-shadow: 5px 10px #888888;*/
+}
+
+div.third{
+    transition: 1s;
+    padding: 20px;
+    text-align: center;
+    width: 33%;
+    height: 33%;
+    color: white;
+    background-color: black;
+    margin-left: 10px;
+    font-family: 'Montserrat', sans-serif;
+    /*border: 1px solid;
+    box-shadow: 5px 10px #888888;*/
+}
+
+div.first:hover{
+    margin-top: -10px;
+    border: 1px solid;
+    box-shadow: 5px 10px 7px  #333;
+    transition: 1s;
+}
+
+div.second:hover{
+    margin-top: -10px;
+    border: 1px solid;
+    box-shadow: 5px 10px 7px  #333;
+    transition: 1s;
+}
+
+div.third:hover{
+    margin-top: -10px;
+    border: 1px solid;
+    box-shadow: 5px 10px 7px  #333;
+    transition: 1s;
+}
+
+div >img:hover{
+    transform: rotateY(180deg);
+}
